@@ -1,0 +1,18 @@
+# Compiled Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment-specific settings
+.env
+local_settings.py
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+.spyproject/
+backend/database.db

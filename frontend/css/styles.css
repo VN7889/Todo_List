@@ -1,0 +1,38 @@
+#todoLayout{
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+#list-task-items{
+    height: auto;
+    width: 300px;
+    margin: 10px auto 10px auto;
+    border: 2px solid grey;
+    text-align: left;
+    border-radius: 5px;
+    word-wrap: break-word;     /* Ensures long words break */
+    overflow-wrap: break-word; /* Fallback for wider support */
+    white-space: normal;
+}
+
+.task-item {
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 85%;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+.task-item.selected {
+    background-color: #d0f0ff;
+    font-weight: bold;
+}
